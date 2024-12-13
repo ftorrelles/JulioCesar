@@ -1,0 +1,56 @@
+:root {
+  --principal: #72bf78;
+  --principal2: #a0d683;
+  --principal3: #d3ee98;
+  --yellow: #feff9f;
+  --dark: #201e1e;
+  --light-color: #fcf9f9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  max-width: 100%;
+}
+
+.bt_top:hover {
+  color: var(--secondary);
+}
+
+/* icono whatsapp */
+.bxl-whatsapp-square {
+  color: #25d366;
+  font-size: 6rem;
+}
+.floating-logo {
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333; /* Color de texto oscuro */
+}
+
+.navbar-light .nav-dropdown:hover {
+  background-color: #f1f1f1; /* Color de fondo al hacer hover */
+}

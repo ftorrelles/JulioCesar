@@ -1,0 +1,36 @@
+.contact-icon {
+  font-size: 2rem;
+  color: var(--principal);
+}
+
+.bg-dark {
+  background-color: var(--principal);
+}
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.social-icons .contact-icon {
+  font-size: 1.5rem; /* Ajuste del tamaño de los iconos de redes sociales */
+}
+
+/* Asegurarse que el grid se ajuste bien */
+@media (max-width: 768px) {
+  .contact-card {
+    width: 100%; /* Ocupa el 100% del ancho en dispositivos móviles */
+  }
+}
+
+/* Estilos para los títulos y textos dentro de las tarjetas para mejor legibilidad */
+.card-title,
+.card-text {
+  margin: 0; /* Elimina márgenes por defecto para alinear texto correctamente */
+}

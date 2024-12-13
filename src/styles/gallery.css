@@ -1,0 +1,37 @@
+.gallery-container {
+  width: 100%; /* Asegura que el contenedor use todo el ancho disponible */
+  padding: 4rem 2rem; /* Añade padding alrededor de la galería si es necesario */
+  text-align: center; /* Centra los títulos y el contenido dentro de la galería */
+  background: var(--light-color);
+}
+.gallery-container h2 {
+  color: var(--principal);
+  padding: 1rem 0;
+}
+
+.image-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas en desktop */
+  margin: 0 auto; /* Asegura que la grilla esté centrada horizontalmente */
+}
+
+.image-item img {
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho de su celda de grilla */
+  height: auto; /* Mantiene la proporción de las imágenes sin recortarlas */
+  border-radius: 8px; /* Estilo opcional para bordes redondeados */
+}
+
+@media (max-width: 1024px) {
+  /* Ajustes para tablets */
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas para tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ajustes para móviles */
+  .image-grid {
+    grid-template-columns: 1fr; /* 1 columna para móviles */
+  }
+}

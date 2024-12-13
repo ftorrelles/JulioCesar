@@ -1,0 +1,26 @@
+.card-body {
+  background-color: var(
+    --light-color
+  ); /* Fondo claro para el contenido de la tarjeta */
+}
+.section-blog-title {
+  color: var(--principal);
+  text-align: center;
+  padding-top: 5rem;
+}
+.section-blog-sub-title {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.btn-primary {
+  background-color: var(--principal); /* Botón con el color verde principal */
+  border: none;
+}
+
+.card-title {
+  color: var(--dark); /* Título oscuro para contraste */
+}
+
+.card-text {
+  color: var(--dark); /* Texto oscuro para legibilidad */
+}
