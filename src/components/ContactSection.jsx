@@ -21,7 +21,7 @@ const ContactSection = () => {
               <FaPhone className="contact-icon" />
               <div className="info-card">
                 <Card.Title>Teléfono</Card.Title>
-                <Card.Text>+57 310 7154458</Card.Text>
+                <Card.Text>+57 310 3729344</Card.Text>
               </div>
             </Card.Body>
           </Card>
@@ -32,7 +32,7 @@ const ContactSection = () => {
               <FaEnvelope className="contact-icon" />
               <div className="info-card">
                 <Card.Title>Email</Card.Title>
-                <Card.Text>Juliocesar@gmail.com</Card.Text>
+                <Card.Text>juliocesarcares94@gmail.com</Card.Text>
               </div>
             </Card.Body>
           </Card>
@@ -51,11 +51,29 @@ const ContactSection = () => {
         <Col>
           <Card className=" bg-dark ">
             <Card.Body className="content-card ">
-              <div className="social-icons ">
-                <FaFacebookF className="mx-2 contact-icon" />
-                <FaInstagram className="mx-2 contact-icon" />
-                <FaWhatsapp className="mx-2 contact-icon" />
-              </div>
+              <div className="social-icons">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61559318943462"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebookF className="mx-2 contact-icon" />
+                </a>
+                <a
+                  href="https://www.instagram.com/hablemosdeadicciones714/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="mx-2 contact-icon" />
+                </a>
+                <a
+                  href="https://wa.me/+573103729344"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaWhatsapp className="mx-2 contact-icon" />
+                </a>
+              </div>{" "}
               <div className="info-card">
                 <Card.Title>Redes Sociales</Card.Title>
                 <Card.Text>Conéctate con nosotros</Card.Text>

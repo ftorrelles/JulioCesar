@@ -34,12 +34,12 @@ function Footer() {
             <h3 style={{ textAlign: "center" }}>Redes sociales</h3>
             <div className="div_icons_contact">
               <a
-                href="https://www.instagram.com/adicciones_lazosdeamor/"
+                href="https://www.instagram.com/hablemosdeadicciones714/"
                 target="_blank"
               >
                 <i className="bx bxl-instagram"></i>
               </a>
-              <a href="https://wa.me/573106942538" target="_blank">
+              <a href="https://wa.me/573103729344" target="_blank">
                 <i className="bx bxl-whatsapp"></i>
               </a>
               <a

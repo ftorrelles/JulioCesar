@@ -1,0 +1,24 @@
+.promo-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: var(--principal);
+  color: var(--light-color);
+  overflow: hidden; /* Oculta cualquier desbordamiento */
+  white-space: nowrap; /* Evita que el texto se pase a la siguiente línea */
+  font-size: 1.2rem;
+}
+
+.scrolling-text {
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

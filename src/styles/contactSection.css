@@ -19,9 +19,11 @@
   gap: 1rem;
 }
 .social-icons .contact-icon {
-  font-size: 1.5rem; /* Ajuste del tamaño de los iconos de redes sociales */
+  font-size: 1.9rem; /* Ajuste del tamaño de los iconos de redes sociales */
 }
-
+.social-icons .contact-icon:hover {
+  color: var(--dark);
+}
 /* Asegurarse que el grid se ajuste bien */
 @media (max-width: 768px) {
   .contact-card {

@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import BusinessCard from "./pages/BusinessCard";
 import About from "./pages/About";
 import ServicesPage from "./pages/ServicesPage";
+import PromoBanner from "./components/PromoBanner";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function BusinessCardLayout() {
 function MainLayout({ children }) {
   return (
     <>
+      <PromoBanner />
       <NavBar />
       {children}
       <Footer />

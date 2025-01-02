@@ -60,7 +60,7 @@
 .bxl-whatsapp:hover,
 .bxl-instagram:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px 0 rgba(4, 212, 4, 0.37);
+  box-shadow: 0 8px 16px 0 rgba(30, 114, 30, 0.37);
 }
 
 /* --------------------------- */
