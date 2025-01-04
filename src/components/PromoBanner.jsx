@@ -6,8 +6,8 @@ const PromoBanner = () => {
     <div className="promo-banner">
       <div className="scrolling-text">
         <strong>
-          Somos centro para la restauracion de adicciones. Tenemos alianza con
-          la fundacion Lazos de amor.
+          Somos centro de rehabilitación para adictos a las drogas y el alcohol.
+          Tenemos alianza con la fundacion Lazos de amor.
         </strong>
       </div>
     </div>

@@ -48,9 +48,9 @@ img {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #333; /* Color de texto oscuro */
+  color: #333;
 }
 
 .navbar-light .nav-dropdown:hover {
-  background-color: #f1f1f1; /* Color de fondo al hacer hover */
+  background-color: #f1f1f1;
 }

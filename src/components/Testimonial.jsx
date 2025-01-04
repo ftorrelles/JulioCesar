@@ -70,7 +70,7 @@ const testimonialsData = [
     id: 1,
     videoUrl: "/testimonio1.mp4",
     name: "William Chaparro",
-    text: "Me han ayudado a conocerme a mi mismo a tener amor propio",
+    text: "   A través de talleres me han ayudado a conocer en cuanto al problema de las adicciones, he aprendido a tener amor propio",
   },
   {
     id: 2,
@@ -78,18 +78,18 @@ const testimonialsData = [
     name: "Willian Lazo",
     text: "Me han ayudado a conocer mas de Dios, y me han brindado ayudas con profesionales",
   },
-  {
-    id: 1,
-    videoUrl: "/testimonio1.mp4",
-    name: "Ana Martínez",
-    text: "Gracias a Julio, he encontrado un nuevo camino en mi vida. Su apoyo ha sido fundamental.",
-  },
-  {
-    id: 1,
-    videoUrl: "/testimonio1.mp4",
-    name: "Ana Martínez",
-    text: "Gracias a Julio, he encontrado un nuevo camino en mi vida. Su apoyo ha sido fundamental.",
-  },
+  // {
+  //   id: 1,
+  //   videoUrl: "/testimonio1.mp4",
+  //   name: "Ana Martínez",
+  //   text: "Gracias a Julio, he encontrado un nuevo camino en mi vida. Su apoyo ha sido fundamental.",
+  // },
+  // {
+  //   id: 1,
+  //   videoUrl: "/testimonio1.mp4",
+  //   name: "Ana Martínez",
+  //   text: "Gracias a Julio, he encontrado un nuevo camino en mi vida. Su apoyo ha sido fundamental.",
+  // },
   // Más testimonios...
 ];
 
@@ -98,7 +98,7 @@ const Testimonials = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
