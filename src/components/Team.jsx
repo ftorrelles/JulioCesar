@@ -34,11 +34,12 @@ const Team = () => {
     },
     {
       name: "Guillermo varón",
-      role: "Facilitador terapéutico",
+      role: "Operador terapéutico",
       expertise: "Licenciada en educación",
-      experience: "4 años de experiencia",
-      image: "/team5.png",
+      experience: "5 años de experiencia",
+      image: "/team7.png",
     },
+
     {
       name: "Elizabeth Daut",
       role: "Terapeuta en adicciones",
@@ -63,10 +64,10 @@ const Team = () => {
     },
     {
       name: "Alejandro Rodríguez",
-      role: "Operador terapéutico",
+      role: "Facilitador terapéutico",
       expertise: "Licenciada en educación",
-      experience: "5 años de experiencia",
-      image: "/team7.png",
+      experience: "4 años de experiencia",
+      image: "/team5.png",
     },
   ];
   const stats = [
