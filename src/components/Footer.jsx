@@ -43,7 +43,7 @@ function Footer() {
                 <i className="bx bxl-whatsapp"></i>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=61559318943462"
+                href="https://www.facebook.com/profile.php?id=61571299345176"
                 target="_blank"
               >
                 <i className="bx bxl-facebook-circle"></i>

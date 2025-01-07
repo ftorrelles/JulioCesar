@@ -18,14 +18,14 @@ const BusinessCard = () => {
         </p>
         <div className="card-business-buttons card-business-icons">
           <a
-            href="https://www.facebook.com/profile.php?id=61559318943462"
+            href="https://www.facebook.com/profile.php?id=61571299345176"
             target="_blank"
             className="card-business-button"
           >
             <FaFacebook className="icon" /> Síguenos en Facebook
           </a>
           <a
-            href="https://www.instagram.com/adicciones_lazosdeamor/"
+            href="https://www.instagram.com/hablemosdeadicciones714/"
             target="_blank"
             className="card-business-button"
           >
@@ -37,7 +37,7 @@ const BusinessCard = () => {
             Visita nuestro sitio web
           </Link>
           <a
-            href="https://wa.me/573106942538"
+            href="https://wa.me/573103729344"
             target="_blank"
             className="card-business-button"
           >

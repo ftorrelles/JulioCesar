@@ -53,7 +53,7 @@ const ContactSection = () => {
             <Card.Body className="content-card ">
               <div className="social-icons">
                 <a
-                  href="https://www.facebook.com/profile.php?id=61559318943462"
+                  href="https://www.facebook.com/profile.php?id=61571299345176"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

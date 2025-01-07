@@ -46,19 +46,27 @@ const Team = () => {
       experience: "3 años de experiencia",
       image: "/team6.png",
     },
-    {
-      name: "Alejandro Rodríguez",
-      role: "Operador terapéutico",
-      expertise: "Licenciada en educación",
-      experience: "5 años de experiencia",
-      image: "/team7.png",
-    },
+
     {
       name: "Jhon Garcés",
       role: "Secretario",
       expertise: "Licenciada en educación",
       experience: "2 años de experiencia",
       image: "/team8.png",
+    },
+    {
+      name: "Jackeline Nuñez",
+      role: "Terapeuta en adicciones",
+      expertise: "Licenciada en educación",
+      experience: "5 años de experiencia",
+      image: "/team9.png",
+    },
+    {
+      name: "Alejandro Rodríguez",
+      role: "Operador terapéutico",
+      expertise: "Licenciada en educación",
+      experience: "5 años de experiencia",
+      image: "/team7.png",
     },
   ];
   const stats = [
