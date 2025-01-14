@@ -32,7 +32,7 @@ const ContactSection = () => {
               <FaEnvelope className="contact-icon" />
               <div className="info-card">
                 <Card.Title>Email</Card.Title>
-                <Card.Text>juliocesarcares94@gmail.com</Card.Text>
+                <Card.Text>juliocesarcaceres94@gmail.com</Card.Text>
               </div>
             </Card.Body>
           </Card>
