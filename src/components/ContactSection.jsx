@@ -60,7 +60,7 @@ const ContactSection = () => {
                   <FaFacebookF className="mx-2 contact-icon" />
                 </a>
                 <a
-                  href="https://www.instagram.com/hablemosdeadicciones714/"
+                  href="https://www.instagram.com/juliocesar.terap/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
